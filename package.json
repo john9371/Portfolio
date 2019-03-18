@@ -1,22 +1,24 @@
 {
-    "name": "portfoliojpm",
-    "version": "1.0.0",
-    "description": "",
-    "main": "Server/server.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node Server/server.js"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jphn9371/portfolio.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/jphn9371/portfolio/issues"
-    },
-    "homepage": "https://github.com/jphn9371/portfolio#readme",
-    "dependencies": {
-    }
+  "name": "portfoliojpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jphn9371/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jphn9371/portfolio/issues"
+  },
+  "homepage": "https://github.com/jphn9371/portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
   }
+}
