@@ -1,0 +1,1 @@
+var emailBtn = document.querySelector

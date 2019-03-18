@@ -1,0 +1,164 @@
+<!--DOCTYPE html-->
+<html>
+
+<head>
+  <title>John McDaniel</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+<body class="w3-content" style="max-width:1300px">
+
+  <!-- First Grid: Logo & About -->
+  <div class="w3-row">
+    <div class="w3-half w3-black w3-container w3-center" style="height:800px">
+      <div class="w3-padding-64">
+        <h1>My Logo</h1>
+      </div>
+      <div class="w3-padding-64">
+        <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Home</a>
+        <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">My Work</a>
+        <a href="#work" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Resume</a>
+        <a href="#contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Contact</a>
+      </div>
+    </div>
+    <div class="w3-half w3-blue-grey w3-container" style="height:800px">
+      <div class="w3-padding-64 w3-center">
+        <h1>About Me</h1>
+        <!--<img src="/w3images/avatar3.png" class="w3-margin w3-circle" alt="Person" style="width:50%">-->
+        <div class="w3-left-align w3-padding-large">
+          <p>The Devil wears a suit and tie. I saw him driving down 61 in early July. White as a cotton field. Sharp as
+            a knife. He hollered as he passed me by.</p>
+          <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Second Grid: Work & Resume -->
+  <div class="w3-row">
+    <div class="w3-half w3-light-grey w3-center" style="min-height:800px" id="work">
+      <div class="w3-padding-64">
+        <h2>My Work</h2>
+        <p>Some of my latest projects.</p>
+      </div>
+      <div class="w3-row">
+        <div class="w3-half">
+          <!--img src="/w3images/coffee.jpg" style="width:100%"-->
+        </div>
+        <div class="w3-half">
+          <!--img src="/w3images/workbench.jpg" style="width:100%"-->
+        </div>
+      </div>
+      <div class="w3-row w3-hide-small">
+        <div class="w3-half">
+          <!--img src="/w3images/workbench.jpg" style="width:100%"-->
+        </div>
+        <div class="w3-half">
+          <!--img src="/w3images/coffee.jpg" style="width:100%">-->
+        </div>
+      </div>
+
+      <div class="w3-row w3-hide-small">
+        <div class="w3-half">
+          <!--img src="/w3images/sound.jpg" style="width:100%"-->
+        </div>
+        <div class="w3-half">
+          <!--img src="/w3images/workbench.jpg" style="width:100%"-->
+        </div>
+      </div><br>
+      <p>Just call me awesome.</p>
+    </div>
+    <div class="w3-half w3-indigo w3-container" style="min-height:800px">
+      <div class="w3-padding-64 w3-center">
+        <h2>Resume</h2>
+        <p>A draft from my CV</p>
+        <div class="w3-container w3-responsive">
+          <table class="w3-table">
+            <tr>
+              <th>Year</th>
+              <th>Title</th>
+              <th>Where</th>
+            </tr>
+            <tr class="w3-white">
+              <td>Jan 2019-April 2019</td>
+              <td>Innovate Birmingham</td>
+              <td>Birmingham, Alabama</td>
+            </tr>
+            <tr>
+              <td>2016-2018</td>
+              <td>Two years of post secondary education</td>
+              <td>University of Alabama in Huntsville, Huntsville, Alabama</td>
+            </tr>
+            <tr class="w3-white">
+              <td>Jan. 2018- July 2018</td>
+              <td>Worked 4am shift at Bojangle's</td>
+              <td>Birmingham, Alabama</td>
+            </tr>
+            <tr>
+              <td>Jan. 2018- July 2018</td>
+              <td>Worked at Hamburger Heaven</td>
+              <td>Birmingham, Alabama</td>
+            </tr>
+            <tr class="w3-white">
+              <td>2012-2016</td>
+              <td>Graduated highschool in honor society</td>
+              <td>Evangel Christian, Alabaster, Alabama</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Third Grid: Swing By & Contact -->
+  <div class="w3-row" id="contact">
+    <div class="w3-half w3-dark-grey w3-container w3-center" d="background">
+      <div class="w3-padding-64">
+        <h1>Meet Up</h1>
+      </div>
+      <div class="w3-padding-64">
+        <p>..for a cup of coffee, or whatever.</p>
+        <p>Birmingham, Alabama, US</p>
+        <p>+01 (205)937-9150</p>
+        <p>john9371@aol.com</p>
+      </div>
+    </div>
+    <div class="w3-half w3-teal w3-container" style="height:800px">
+      <div class="w3-padding-64 w3-padding-large">
+        <h1>Contact</h1>
+        <p class="w3-opacity">GET IN TOUCH</p>
+        <form class="w3-container w3-card w3-padding-32 w3-white" id="myform" onsubmit="emailjs.sendForm('default_service', 'template_RLudvNhp', this); return false;" method="POST">
+          <div class="w3-section">
+            <label>Name</label>
+            <input class="w3-input" style="width:100%;" type="text" required name="Name">
+          </div>
+          
+            <label>Email</label>
+            <input class="w3-input" style="width:100%;" type="text" required name="Email">
+          
+          <div class="w3-section">
+            <label>Message</label>
+            <input class="w3-input" style="width:100%;" type="text" required name="Message">
+          </div>
+          <button type="submit" class="w3-button w3-teal w3-right" onsubmit="">Send</button>
+        </form>
+        <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+        <script type="text/javascript">(function () {
+         emailjs.init("user_jUNzgWUhOMqUNEnZzH7dX");
+         })();
+        </script>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-black w3-padding-16">
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>
